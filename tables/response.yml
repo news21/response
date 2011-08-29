@@ -1,0 +1,38 @@
+table:
+    title: Are you protected ?
+    deck:
+      <div class="deck_tile">
+        <p>Quick reporting of diseases to your local health department can limit the spread of foodborne outbreaks. See which states have the fastest and slowest requirements.</p>
+        <p class="legend">Fastest <img src="http://assets.news21.com/2011/response/images/1red.png" width="20" height="20"><img src="http://assets.news21.com/2011/response/images/2red.png" width="20" height="20"><img src="http://assets.news21.com/2011/response/images/3red.png" width="20" height="20"><img src="http://assets.news21.com/2011/response/images/4red.png" width="20" height="20"> Slowest&nbsp;&nbsp;&nbsp;<img src="http://assets.news21.com/2011/response/images/Nred.png" width="20" height="20" class="nrlegend"> No requirement</p>
+        <!--<p class="legend"><span>Fastest <img src="http://assets.news21.com/2011/response/images/1red.png" width="20" height="20"><img src="http://assets.news21.com/2011/response/images/2red.png" width="20" height="20"><img src="http://assets.news21.com/2011/response/images/3red.png" width="20" height="20"></span><img src="http://assets.news21.com/2011/response/images/Nred.png" width="20" height="20" class="nrlegend"> No requirement</p>-->
+      </div>
+    file: response.csv
+    column_options:
+      columns:
+        - State
+        - Salmonella
+        - Giardia
+        - Streptococcus Group A
+        - Shigella
+        - Cryptosporidium
+        - E. coli O157
+        - Other Shiga-toxin E. coli
+        - Hepatitis A
+        - V. parahaemolyticus
+        - V. vulnificus
+        - Other Vibrio
+        - Listeria
+        - Typhoid Fever
+        - Cyclospora
+        - Brucella
+        - Botulism
+        - Staphylococcus aureus
+        - Cholera
+        - Trichinella
+        - Mycobacterium Bovis	
+      sorted_by:
+        State: ascending
+      style:
+          State: 'text-align: center; background-color: #edf4ff;'
+    per_page: 0
+    live: true
