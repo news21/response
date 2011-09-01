@@ -1,8 +1,8 @@
 table:
-    title: Are you protected ?
+    title: Are you protected from outbreaks?
     deck:
       <div class="deck_tile">
-        <p>Quick reporting of diseases to your local health department can limit the spread of foodborne outbreaks. See which states have the fastest and slowest requirements.</p>
+        <p>Quick reporting of diseases to your local health department can limit the spread of foodborne outbreaks. Click through the foodborne illnesses that CDC recommends be reported and see how your state’s requirements measure up. Hover over each square for more details.</p>
         <p class="legend">Fastest <img src="http://assets.news21.com/2011/response/images/1red.png" width="20" height="20"><img src="http://assets.news21.com/2011/response/images/2red.png" width="20" height="20"><img src="http://assets.news21.com/2011/response/images/3red.png" width="20" height="20"><img src="http://assets.news21.com/2011/response/images/4red.png" width="20" height="20"> Slowest&nbsp;&nbsp;&nbsp;<img src="http://assets.news21.com/2011/response/images/Nred.png" width="20" height="20" class="nrlegend"> No requirement</p>
         <!--<p class="legend"><span>Fastest <img src="http://assets.news21.com/2011/response/images/1red.png" width="20" height="20"><img src="http://assets.news21.com/2011/response/images/2red.png" width="20" height="20"><img src="http://assets.news21.com/2011/response/images/3red.png" width="20" height="20"></span><img src="http://assets.news21.com/2011/response/images/Nred.png" width="20" height="20" class="nrlegend"> No requirement</p>-->
       </div>
@@ -36,3 +36,5 @@ table:
           State: 'text-align: center; background-color: #edf4ff;'
     per_page: 0
     live: true
+
+    footer: Disease descriptions according to information available from the U.S. Centers for Disease Control and Prevention at <a href="http://CDC.gov" target="_blank">CDC.gov</a>.  Information on Mycobacterium Bovis from the New York Department of Health at <a href= "http://nyc.gov/html/doh/" target="_blank">nyc.gov/html/doh/</a>. For comments and/or corrections regarding the database, please e-mail <a href  = "mailto:max.levy@News21.com">max.levy@News21.com</a>
