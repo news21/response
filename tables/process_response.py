@@ -1,5 +1,5 @@
 import csv
-f = open('reporting_ranks_qualitative.csv', 'rUb') 
+f = open('reporting_ranks_final.csv', 'rUb') 
 dr = csv.DictReader(f)
 outlist = []
 outfile = open('response.csv', 'w')
